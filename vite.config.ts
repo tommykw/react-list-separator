@@ -7,7 +7,7 @@ export default defineConfig({
       entry: 'src/index.tsx',
       name: 'ReactListSeparator',
       formats: ['es', 'cjs'],
-      fileName: (format) => `react-list-separator.${format}.js`,
+      fileName: (format) => `index.${format}.js`,
     },
     rollupOptions: {
       external: ['react'],
@@ -22,6 +22,7 @@ export default defineConfig({
   plugins: [
     dts({
       insertTypesEntry: true,
+      outDir: 'dist',
     }),
   ],
 });
