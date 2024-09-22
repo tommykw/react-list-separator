@@ -1,6 +1,6 @@
 {
   "name": "react-list-separator",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "type": "module",
   "scripts": {
     "test": "jest",
@@ -10,14 +10,14 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/index.cjs.js",
-  "module": "./dist/index.es.js",
+  "main": "./dist/react-list-separator.cjs.js",
+  "module": "./dist/react-list-separator.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.es.js",
-      "require": "./dist/index.cjs.js"
+      "import": "./dist/react-list-separator.es.js",
+      "require": "./dist/react-list-separator.cjs.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "keywords": [
