@@ -1,5 +1,5 @@
-import { withSeparators } from "react-list-separator";
-import styles from "./page.module.css";
+import { withSeparators } from "react-list-separator"
+import styles from "./page.module.css"
 
 export default function Home() {
   const list = [
