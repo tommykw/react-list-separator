@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
 import { render } from '@testing-library/react'
-import withSeparators from '.'
+import { withSeparators } from './index'
 
 describe('withSeparators', () => {
   it('renders items with separators in the correct structure', () => {

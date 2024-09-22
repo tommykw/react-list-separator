@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
 
-const withSeparators = (items: ReactNode[]) => ({
+export const withSeparators = (items: ReactNode[]) => ({
   separatedBy(separator: ReactNode): ReactNode[] {
     return items.map((item, index) => (
       <React.Fragment key={`react-list-separator-item-${index}`}>
@@ -14,5 +14,3 @@ const withSeparators = (items: ReactNode[]) => ({
     ));
   },
 })
-
-export default withSeparators

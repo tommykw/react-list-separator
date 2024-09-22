@@ -1,2 +1,1 @@
-import withSeparators from './withSeparators'
-export { withSeparators }
+export { withSeparators } from './withSeparators'
