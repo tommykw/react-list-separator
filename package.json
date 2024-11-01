@@ -5,10 +5,9 @@
   "scripts": {
     "test": "jest",
     "build": "tsc && vite build",
-    "lint": "biome lint src",
-    "lint:fix": "biome lint src --fix",
-    "format": "biome format src",
-    "format:fix": "biome format src --fix",
+    "check": "biome check src",
+    "check:fix": "biome check --write src",
+    "type:check": "tsc --noEmit",
     "release": "npm run build && npm publish"
   },
   "files": [
