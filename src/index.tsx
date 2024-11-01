@@ -1,1 +1,1 @@
-export { withSeparators } from './withSeparators';
+export { withSeparators } from './withSeparators'

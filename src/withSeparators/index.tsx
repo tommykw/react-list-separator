@@ -1,4 +1,4 @@
-import React, { type ReactNode } from 'react';
+import React, { type ReactNode } from 'react'
 
 export const withSeparators = (items: ReactNode[]) => ({
   separatedBy(separator: ReactNode): ReactNode[] {
@@ -15,6 +15,6 @@ export const withSeparators = (items: ReactNode[]) => ({
           </React.Fragment>
         )}
       </React.Fragment>
-    ));
+    ))
   },
-});
+})
