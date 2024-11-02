@@ -1,28 +1,28 @@
 {
-"compilerOptions": {
-  "jsx": "react",
-  "target": "ES6",
-  "module": "ES6",
-  "moduleResolution": "node",
-  "esModuleInterop": true,
-  "lib": ["dom", "ES6"],
-  "types": ["@testing-library/jest-dom", "jest", "node"],
-  "outDir": "dist",
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "ES6",
+    "module": "ES6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "lib": ["dom", "ES6"],
+    "types": ["vitest/jsdom", "node"],
+    "outDir": "dist",
 
-  // Strict Checks
-  "strict": true,
-  "alwaysStrict": true,
-  "allowUnreachableCode": false,
-  "noImplicitAny": true,
-  "strictNullChecks": true,
+    // Strict Checks
+    "strict": true,
+    "alwaysStrict": true,
+    "allowUnreachableCode": false,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
 
-  // Linter Checks
-  "forceConsistentCasingInFileNames": true,
-  "noFallthroughCasesInSwitch": true,
-  "noImplicitReturns": true,
-  "noUnusedLocals": true,
-  "noUnusedParameters": true,
-},
-"exclude": ["src/**/*.test.tsx", "src/**/*.test.ts"],
-"include": ["src/**/*.tsx", "src/**/*.ts"]
+    // Linter Checks
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+  },
+  "exclude": ["src/**/*.test.tsx", "src/**/*.test.ts"],
+  "include": ["src/**/*.tsx", "src/**/*.ts"]
 }
